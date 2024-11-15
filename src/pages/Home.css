@@ -1,0 +1,43 @@
+/* HomeStyles.css */
+
+.home {
+  background-image: url("../images/banner.jpeg");
+  background-position: center center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-size: cover; /* Ensure the image covers the container */
+  height: 80vh; /* Full height of the viewport */
+  width: 100%;
+}
+
+.headerContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-family: "Arial", sans-serif;
+}
+
+.headerContainer h1 {
+  font-size: 3rem; /* Adjust the font size as needed */
+}
+
+.headerContainer p {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.headerContainer button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.headerContainer button:hover {
+  background-color: #218838;
+}
